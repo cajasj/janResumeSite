@@ -1,0 +1,41 @@
+@keyframes typing { from { width: 0; } }
+
+
+body{
+
+ background-image: url("../images/background.jpg");
+ background-repeat:no-repeat;
+ background-size: 100vw 100vh;
+ color:white;
+ padding-top:0;
+ 
+}
+body .move
+{
+	
+	margin-top: 3em;
+	margin-left:5em;
+	margin-right:90px;
+	height:70vh;
+ 	color: white;
+ 	overflow-x:hidden;
+	overflow-y: scroll;
+}
+body .move .mid
+{
+	margin:auto;
+	height:30vh;
+	display:block;
+}
+h1.type { 
+	/**/
+	font: bold 100% Consolas;
+	/*font: bold 100% Calibri;*//*test for keeping font in mind*/
+	border-right: .5em solid;
+	width: 19ch; /* # of chars */
+	margin-top: 3em; /*so regardless of size of window it'll still fit in the screen*/
+	margin-left:5em;
+	overflow: hidden;
+	animation: typing 2s steps(19, end);/*steps = how many steps it end is the default*/
+	           
+}
