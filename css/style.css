@@ -11,7 +11,7 @@ body #move
 	display:none;
 	margin-top: .5em;
 	margin-left:5em;
-	margin-right:90px;
+	margin-right:70px;
 	height:70vh;
  	color: white;
  	overflow-x:hidden;
@@ -40,6 +40,7 @@ body #navbar
 #navbar li
 {
 	font-size: 15px;
+	margin-top: 10px;
 	color:white;
 	display:inline;
 	text-decoration: none;
@@ -86,6 +87,6 @@ h1.type {
 	margin-top: 3em; /*so regardless of size of window it'll still fit in the screen*/
 	margin-left:5em;
 	overflow: hidden;
-	animation: typing 2s steps(19, start);/*steps = how many steps it end is the default*/
+	animation: typing 2s steps(19, end);/*steps = how many steps it end is the default*/
 	           
 }
