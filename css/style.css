@@ -43,7 +43,7 @@ body #move
 body #move .mid
 {
 	margin:auto;
-	height:30vh;
+	height:40vh;
 	display:block;
 
 }
@@ -123,5 +123,5 @@ h1#type {
 #slide
 {
 	height:30vh;
-	
+
 }
