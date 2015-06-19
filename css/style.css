@@ -3,21 +3,43 @@ body{
  background-image: url("../images/background.jpg");
  background-repeat:no-repeat;
  background-size: 100vw 100vh;
+
  color:white;
+
+}
+audio
+{
+	display:hidden;
+
+}
+@keyframes rise
+{
+  from {
+  	margin-top: 150%;
+  }
  
+}
+#container
+{
+	height:78vh;
+	overflow:hidden;
 }
 body #move
 {
 	display:none;
-	margin-top: .5em;
+	/*margin-top: .5%;*/
+	margin-top: 2em;
 	margin-left:5em;
 	margin-right:70px;
 	height:70vh;
- 	color: white;
+ 	color: white; 
  	overflow-x:hidden;
 	overflow-y: scroll;
-
+	animation:rise 2s;
+			 
+	
 }
+
 body #move .mid
 {
 	margin:auto;
@@ -25,61 +47,67 @@ body #move .mid
 	display:block;
 
 }
-body #move .general
+body #move .general_pic
 {
 	height:20vh;
 }
 body #move #slide
 {
-	height:20vh;
+	height:30vh;
 }
 body #navbar 
 {
-	display:none;
+	/*display:none;*/
+	margin-top: 2em;
+	margin-left: .5em
+	
 }
 #navbar li
 {
 	font-size: 15px;
-	margin-top: 10px;
+	margin-top: 20px;
 	color:white;
 	display:inline;
 	text-decoration: none;
-	margin-right: .3em;
-
+	background-color: gray;
 }
-#navbar li a 
+#navbar li .fam
 {
-	text-decoration: none;
-	color:white;
+	
+	height:4vh;
+	margin-top: 10px;
+	margin-left: 0;
 }
+
+
+nav li {
+	display: inline;
+}
+nav a {
+	color: white;
+	display: inline-block;
+	text-align: left;
+	text-decoration: none;
+	
+}
+
 p a
 {
 	text-decoration: none;
 	color:white;
 }
-#navbar li .fam
-{
-	
-	height:3vh;
-	
 
-}
-#card
-{
-	margin:auto;
-	height:30vh;
 
-}
 video
 {    
 	width: 24vw; 
     height: 20vh; 
-}
-@keyframes typing { from { width: 0%; } }
 
-h1.type { 
-	/*
-	display: none;*/
+}@keyframes typing { from { width: 0%; } }
+
+h1#type { 
+	
+	/*display: none;*/
 	font: bold 100% Consolas;
 	/*font: bold 100% Calibri;*//*test for keeping font in mind*/
 	border-right: .5em solid;
@@ -89,4 +117,11 @@ h1.type {
 	overflow: hidden;
 	animation: typing 2s steps(19, end);/*steps = how many steps it end is the default*/
 	           
+}
+
+
+#slide
+{
+	height:30vh;
+	
 }
