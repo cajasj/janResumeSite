@@ -16,6 +16,13 @@ audio
 	height:78vh;
 	overflow:hidden;
 }
+@-webkit-keyframes rise
+{
+  from {
+  	margin-top: 150%;
+  }
+ 
+}
 @keyframes rise
 {
   from {
@@ -33,8 +40,9 @@ body #move
 	height:70vh;
  	color: white; 
  	overflow-x:hidden;
-	overflow-y: scroll;
-	animation:rise 7s
+	overflow-y: scroll;/*
+	@-webkit-keyframes: rise 7s;*/
+	animation:rise 7s;
 }
 body #move .mid
 {
@@ -100,12 +108,15 @@ video
     height: 20vh; 
 
 }
-
+@-webkit-keyframes typing 
+{ 
+	from { 
+		width: 0%; } 
+}
 @keyframes typing 
 { 
 	from { 
-		width: 0%; 
-	} 
+		width: 0%; } 
 }
 h1#type { 
 	/*display: none;*/
@@ -116,6 +127,7 @@ h1#type {
 	margin-top: 3em; 
 	margin-left:5em;
 	overflow: hidden; 
+	@-webkit-keyframes: typing 2s steps(19, end); 
 	animation: typing 2s steps(19, end);       
 }
 #slide
