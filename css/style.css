@@ -123,7 +123,7 @@ h1#type {
 	margin-top: 3em; 
 	margin-left:5em;
 	overflow: hidden;
-	-webkit-animation: typing 2s steps(19, end);  
+	-webkit-animation: typing 1s steps(16, end);  
 	animation: typing 2s steps(19, end);       
 }
 
