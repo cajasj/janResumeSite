@@ -42,7 +42,7 @@ body #move
  	color: white; 
  	overflow-x:hidden;
 	overflow-y: scroll;
-	-webkit-animation: rise 9s;
+	-webkit-animation: rise 7s;
 	animation:rise 7s;
 			 
 	
@@ -123,7 +123,7 @@ h1#type {
 	margin-top: 3em; 
 	margin-left:5em;
 	overflow: hidden;
-	-webkit-animation: typing 1s steps(16, end);  
+	-webkit-animation: typing 2s steps(19, end);  
 	animation: typing 2s steps(19, end);       
 }
 
