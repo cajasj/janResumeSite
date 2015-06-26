@@ -19,6 +19,13 @@ audio
   }
  
 }
+@-webkit-keyframes rise
+{
+  from {
+  	margin-top: 150%;
+  }
+ 
+}
 #container
 {
 	height:78vh;
@@ -26,7 +33,7 @@ audio
 }
 body #move
 {
-	display:none;
+	display:block;
 	/*margin-top: .5%;*/
 	margin-top: 2em;
 	margin-left:5em;
@@ -35,7 +42,8 @@ body #move
  	color: white; 
  	overflow-x:hidden;
 	overflow-y: scroll;
-	animation:rise 2s;
+	-webkit-animation: rise 7s;
+	animation:rise 7s;
 			 
 	
 }
