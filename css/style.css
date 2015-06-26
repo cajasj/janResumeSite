@@ -118,7 +118,7 @@ video
 	from { 
 		width: 0%; } 
 }
-h1#type { 
+h1 #type { 
 	/*display: none;*/
 	display:block;
 	font: bold 100% Consolas;
@@ -127,7 +127,6 @@ h1#type {
 	margin-top: 3em; 
 	margin-left:5em;
 	overflow: hidden; 
-	@-webkit-keyframes: typing 2s steps(19, end); 
 	animation: typing 2s steps(19, end);       
 }
 #slide
