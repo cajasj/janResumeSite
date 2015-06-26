@@ -42,7 +42,7 @@ body #move
  	color: white; 
  	overflow-x:hidden;
 	overflow-y: scroll;
-	-webkit-animation: rise 7s;
+	-webkit-animation: rise 9s;
 	animation:rise 7s;
 			 
 	
