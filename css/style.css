@@ -103,20 +103,21 @@ video
 	width: 24vw; 
     height: 20vh; 
 
-}@keyframes typing { from { width: 0%; } }
-
+}
+@keyframes typing { from { width: 0%; } }
+@-webkit-keyframes typing { from { width: 0%; } }
 h1#type { 
 	
 	/*display: none;*/
+	display:block;
 	font: bold 100% Consolas;
-	/*font: bold 100% Calibri;*//*test for keeping font in mind*/
 	border-right: .5em solid;
-	width: 19ch; /* # of chars */
-	margin-top: 3em; /*so regardless of size of window it'll still fit in the screen*/
+	width: 19ch; 
+	margin-top: 3em; 
 	margin-left:5em;
 	overflow: hidden;
-	animation: typing 2s steps(19, end);/*steps = how many steps it end is the default*/
-	           
+	-webkit-animation: typing 2s steps(19, end);  
+	animation: typing 2s steps(19, end);       
 }
 
 

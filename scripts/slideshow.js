@@ -17,8 +17,7 @@ function nextslide()
             
         }
         else
-        {
-            
+        {  
             currentpic++;
             document.getElementById("slide").src = slides[currentpic];
         }
