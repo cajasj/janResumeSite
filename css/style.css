@@ -1,16 +1,20 @@
 body{
-
  background-image: url("../images/background.jpg");
  background-repeat:no-repeat;
  background-size: 100vw 100vh;
-
  color:white;
-
 }
+
 audio
 {
 	display:hidden;
+}
 
+
+#container
+{
+	height:78vh;
+	overflow:hidden;
 }
 @keyframes rise
 {
@@ -19,14 +23,9 @@ audio
   }
  
 }
-#container
-{
-	height:78vh;
-	overflow:hidden;
-}
 body #move
 {
-	display:none;
+	display:block;
 	/*margin-top: .5%;*/
 	margin-top: 2em;
 	margin-left:5em;
@@ -35,11 +34,8 @@ body #move
  	color: white; 
  	overflow-x:hidden;
 	overflow-y: scroll;
-	animation:rise 2s;
-			 
-	
+	animation:rise 7s
 }
-
 body #move .mid
 {
 	margin:auto;
@@ -104,10 +100,14 @@ video
     height: 20vh; 
 
 }
-@keyframes typing { from { width: 0%; } }
-@-webkit-keyframes typing { from { width: 0%; } }
+
+@keyframes typing 
+{ 
+	from { 
+		width: 0%; 
+	} 
+}
 h1#type { 
-	
 	/*display: none;*/
 	display:block;
 	font: bold 100% Consolas;
@@ -115,14 +115,10 @@ h1#type {
 	width: 19ch; 
 	margin-top: 3em; 
 	margin-left:5em;
-	overflow: hidden;
-	-webkit-animation: typing 2s steps(19, end);  
+	overflow: hidden; 
 	animation: typing 2s steps(19, end);       
 }
-
-
 #slide
 {
 	height:30vh;
-
 }
