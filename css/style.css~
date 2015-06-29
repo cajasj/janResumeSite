@@ -49,9 +49,11 @@ body #move
 	overflow-y: scroll;
 	-webkit-animation: rise 7s;
 	animation:rise 7s;
-
-	/*align-content: center;*/
-
+<<<<<<< HEAD
+	align-content: center;
+=======
+			 
+>>>>>>> 082bc520d04966176480f77bac9adc205f71e6d2
 	
 }
 
@@ -124,12 +126,17 @@ video
 h1#type { 
 	
 	/*display: none;*/
-
+<<<<<<< HEAD
 	font: bold 100% "Open Sans", sans-serif;
 	border-right: .5em solid;
 	width: 19ch; 
 	margin-top: 4em; 
-
+=======
+	font: bold 100% Consolas;
+	border-right: .5em solid;
+	width: 19ch; 
+	margin-top: 3em; 
+>>>>>>> 082bc520d04966176480f77bac9adc205f71e6d2
 	margin-left:5em;
 	overflow: hidden;
 	-webkit-animation: typing 2s steps(19, end);  
