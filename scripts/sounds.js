@@ -1,9 +1,7 @@
 
 function ceasetype()
 {
-
 	document.getElementById("stoptype").pause() = true;
-	
 }
 setTimeout(ceasetype, 2160);
 
