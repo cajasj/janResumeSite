@@ -7,20 +7,16 @@ var currentpic = 0;
 var lastpic = slides.length-1;
 function nextslide()
 {
-   
-    
-        if (currentpic == lastpic)
-        {
-            
-            currentpic = 0;
-            
-            document.getElementById("slide").src = slides[currentpic] 
-        }
-        else
-        {
-            currentpic++;
-            document.getElementById("slide").src = slides[currentpic]
-        }
+    if (currentpic == lastpic)
+    {
+        currentpic = 0;
+        document.getElementById("slide").src = slides[currentpic];
+    }
+    else
+    {  
+        currentpic++;
+        document.getElementById("slide").src = slides[currentpic];
+    }
     setTimeout("nextslide()",2500);
 }
 setTimeout("nextslide()",2500);
