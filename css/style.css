@@ -7,11 +7,7 @@ body{
  color:white;
 
 }
-audio
-{
-	display:hidden;
 
-}
 @keyframes rise
 {
   from {
@@ -61,7 +57,7 @@ body #move .mid
 	display:block;
 
 }
-body #move .general_pic
+body #move .general-pic
 {
 	max-width: 30%;
 	max-height: 20%;
